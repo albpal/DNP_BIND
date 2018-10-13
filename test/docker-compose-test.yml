@@ -5,8 +5,6 @@ services:
     build: ./build-test
     image: test
     container_name: Test
-    dns:
-    - localhost
     networks:
     - dnpbind_network
 
